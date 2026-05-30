@@ -21,7 +21,7 @@ Initialized the main data structure i.e. Value class and added children,op and b
 - Neural networks can be represented as computational graphs made of simple mathematical operations.
 - Every node must keep track of how it was created to enable backpropagation later.
 
-# DAY @ (30-05-2026)
+# DAY 2 (30-05-2026)
 
 Understood backpropogation and how gradients are calculated and passed backward. Also implemented it on a simple neuron. Experimented and played with the Value class members and visualized how gradients affect the forward pass.
 
@@ -32,5 +32,5 @@ Understood backpropogation and how gradients are calculated and passed backward.
 
 - A single neuron structure:- 
     <p align="center">
-        <img src= "D:\Projects\Neural Networks learning\assets\Screenshots\Neuron.webp" width="600">
+        <img src= "assets\Screenshots\Neuron.webp" width="600">
     </p>
