@@ -44,7 +44,11 @@ Understood the implemention part of backpropogation,topological sort and handled
 - Implemented backpropogation and cross checked the gradients manually, also made grad and backward memberes in the Value class
 - Also fixed the code as it was not considering multivariate chain rule case i.e. if there are multiple variables for the calculation of a single gradient, the gradients accumulate
 - Learnt about topological sort and how it is used to automate backpropogation instead of redundantly calling the _backward() function again and again
-    <p href= "https://www.geeksforgeeks.org/dsa/topological-sorting/" text-color= "blue"> Topological sort reference </p>
+    <p>
+    <a href="https://www.geeksforgeeks.org/dsa/topological-sorting/">
+        Topological Sort Reference
+    </a>
+</p>
 
 - Added many other arithmetic functions to our Value calss like __rmul__, __neg__, __pow__, __exp__ and defined the gradients for each of them also handled the case when our value class element is being multiplied by a constant
 - Made the neuron class which defines a nsingle neuron with weights and bias initially randomized bw -1 and 1 and then using __call__ member the activation function is defined and returned thereafter.
