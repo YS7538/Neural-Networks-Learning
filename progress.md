@@ -84,9 +84,9 @@ Implemented gradient descent and understood it intuitively, compared our model t
   <br>
     Gradient descent follows the local slope and converges to a minimum depending on the loss landscape and initialization. It is not guaranteed to find the global minimum.
 
-        <p align="center">
-        <img src="assets/Screenshots/Gradient Descent.webp" width="600">
-        </p>
+<p align="center">
+    <img src="assets/Screenshots/Gradient Descent.webp" width="600">
+</p>
 - In micrograd we did gradient descent in one go for the whole dataset, usually in real world scenarios this becomes very time consuming and costly. So different types of gradient descents are used which you can refer here:- 
         <p>
         <a href="https://medium.com/@morepravin1989/understanding-gradient-descent-and-its-types-with-mathematical-formulation-and-example-5c505555140c">
